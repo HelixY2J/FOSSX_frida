@@ -23,14 +23,11 @@ modify the execution flow of an application while it is running.
 ### Frida-tools
 
 Frida-tools is a Python package that offers some CLI tools that can be
-used for quick instrumentation.One of the two most important tools
+used for quick instrumentation. One of the two most important tools
 that are present in the frida-tools package is the Frida command line
 interface. 
 
-Frida’s CLI is a very important tool because it kind of substitutes
-the need for a control script and thus allows to quickly instrument a
-binary or perform quick tests without the need of writing a full-fledged
-instrumentation script.
+Frida’s CLI  substitutes the need for a control script and thus allows to quickly instrument a binary or perform quick tests without the need of writing a full fledged instrumentation script.
 
 -f switch allows to spawn a process given a path. When doing this, the
 instrumented binary is spawned by Frida and the user is given access
@@ -51,5 +48,6 @@ conducting experiments and testing its functionalities.
 
 ### Resources
 
-https://learnfrida.info/about_bininst/
+https://learnfrida.info/about_bininst/ 
+
 https://codeshare.frida.re/
